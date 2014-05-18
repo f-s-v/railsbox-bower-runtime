@@ -1,0 +1,4 @@
+---
+- name: install bower node package
+  sudo: yes
+  npm: name=bower global=yes state=latest
